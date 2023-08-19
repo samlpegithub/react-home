@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios'
 const SignUpPage = () => {
   let navigate=useNavigate();
  
@@ -12,6 +13,7 @@ const SignUpPage = () => {
 
 
   })
+  axios.defaults.withCredentials=true;
   const Change=(e)=>{
 
     setdata({...data,[e.target.name]:e.target.value})
