@@ -22,7 +22,7 @@ const SignUpPage = () => {
 
       const handleSignUp = async(e) => {
       e.preventDefault();
-     const response =await fetch('https://backend-rust-chi.vercel.app/login', {
+     const response =await fetch('https://localhost:3000/api/auth/login', {
       method: "POST",
       
       headers: {
