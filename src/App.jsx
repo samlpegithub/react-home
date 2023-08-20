@@ -11,6 +11,7 @@ import SpecificCard from './SCard'
 import Notification from './Notification'
 import SignUpPage from './Signup'
 import UserProfile from './ProfieUser'
+import UserDashboard from './user/Userdashboard'
 
 const App = () => {
 
@@ -79,6 +80,7 @@ document.body.style.backgroundColor='white';
 <Route  exact path='/signup' element={<SignUpPage/>}/>
 <Route  exact path='/course/:id' element={<SpecificCard/>}/>
 <Route  exact path='/profile' element={<UserProfile/>}/>
+<Route  exact path='/user-dashbaord' element={<UserDashboard/>}/>
 
 
 </Routes>

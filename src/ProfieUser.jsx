@@ -18,7 +18,7 @@ else{
 
 
 
-         fetch('https://backend-rust-chi.vercel.app/getuser', {
+         fetch('http://localhost:3000/api/auth/getuser', {
             method: "GET",
             
             headers: {

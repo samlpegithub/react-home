@@ -30,7 +30,7 @@ const SignUpPage = () => {
      alert('Password does not match...')      
     }
     
-    const response = await fetch('https://backend-rust-chi.vercel.app/api/register', {
+    const response = await fetch('http://localhost:3000/api/auth/register', {
       method: "POST",
       
       headers: {

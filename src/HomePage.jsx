@@ -135,6 +135,38 @@ setTimeout(() => {
       </header>
 
    <FeatureCourses color={color}/>
+<div className="container-fluid">
+  <div className="row bg-light py-5">
+  <div className="  col-md-5   mx-md-5 py-3 ">
+<img src="./certifications.png" alt=""  className=' w-100 h-100'/>
+
+  </div>
+  <div className="col-md-5 pt-md-5">
+  <h2 className=' text-center' style={{color:'#fa9191'}}>Certifications</h2>
+  <p className=' lead  text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident velit impedit mollitia in nostrum animi, unde voluptates vero saepe, eaque quasi corrupti sequi neque natus dolor?  </p>
+
+  </div>
+</div>
+
+
+
+</div>
+
+<div className="container">
+<div className="row  my-5">
+  <div className="col-md-6 pt-md-5">
+<h2 className=' text-center ' style={{color:"#fa9191"}}>Flexiable Learning</h2>
+<p className=' lead  text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste provident velit impedit mollitia in nostrum animi, unde voluptates vero saepe, eaque quasi corrupti sequi neque natus dolor?  </p>
+  </div>
+
+  <div className="col-md-5">
+<img src="./flexible.png" alt=""  className=' w-100 h-100' />
+
+  </div>
+</div>
+</div>
+
+
 
       <section className="bg-info">
         <div className="container py-5">

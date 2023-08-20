@@ -58,7 +58,7 @@ const Navbar = () => {
          
           <ul className="dropdown-menu me-5">
             <li><Link className="dropdown-item me-4" to="/profile"> <i className="bi bi-person-fill me-3 "></i>Profile</Link></li>
-            <li><Link className="dropdown-item" href="#"> <i className="bi bi-building-fill-dash me-3"></i>Dashbaord</Link></li>
+            <li><Link className="dropdown-item" to="/user-dashbaord"> <i className="bi bi-building-fill-dash me-3"></i>Dashbaord</Link></li>
             <li><hr className="dropdown-divider"/></li>
             <li><Link className='  fst-italic  text-decoration-none text-dark ms-4 fs-5' onClick={handle}>LogOut <i className="bi bi-box-arrow-right text-danger ms-2 fs-4"></i></Link></li>
           </ul>
